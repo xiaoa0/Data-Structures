@@ -8,6 +8,7 @@
 * Benefit of computing: find other people who share similar interests/hobbies. Detriment: can also invade privacy by tracking people across platforms, use information wrongly
 * Benefit of computing: Access information in many different forms (websites, videos, etc.). Detriment: There is also an abundance of misinformation that gets past content regulations and can mislead people
 * Benefit of computing: Machine learning algorithms improve life and make tasks easier. Detriment: human bias in data pools remains and is reinforced, not broken.
+
 ## 0.2
 * Some people may have limited access to technology. Different countries may block access to certain sites or even block certain content.
 * Other factors include religion, money, location, education, race, nationality, etc.
