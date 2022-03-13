@@ -1,3 +1,5 @@
+{% includes base.html%}
+
 # Related to CB topics 5.1-5.2 (Effects of Computing and Digital Divide)
 ## 0.1
 * Dopamine is a 'happy chemical' released during certain activities we find pleasurable
