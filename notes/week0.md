@@ -1,4 +1,4 @@
-{% includes base.html%}
+{% include base.html%}
 
 # Related to CB topics 5.1-5.2 (Effects of Computing and Digital Divide)
 ## 0.1
