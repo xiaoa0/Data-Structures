@@ -1,4 +1,4 @@
-{% include base.html%}
+{% include base.html %}
 
 ## [Repl here](https://replit.com/@axiao05/hangman-create-task)
 
