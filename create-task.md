@@ -1,6 +1,6 @@
 {% include base.html %}
 
-## [Repl here](https://replit.com/@axiao05/hangman-create-task)
+<iframe frameborder="0" width="100%" height="80%" src="https://replit.com/@axiao05/hangman-create-task?lite=true"></iframe>
 
 ### Requirements:
 * Take input from user, device, online data stream, or file
