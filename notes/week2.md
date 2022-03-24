@@ -1,3 +1,5 @@
+{% include base.html %}
+
 # Related to CB topics 5.5 and 5.6 (Legal and Ethical Concerns, Safe Computing)
 
 ## Legal and Ethical Concerns
