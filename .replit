@@ -1,2 +1,2 @@
 language = "python3"
-run = "python week0/menu2.py"
+run = "python week0/menu.py"

@@ -1,0 +1,18 @@
+[[package]]
+name = "recursion-2019"
+version = "1.0.0"
+description = "A simple printer of nested lists"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "e06232eb232ca76a575b62c2420197229563d9ada71a96a8163ecfb56d691a16"
+
+[metadata.files]
+recursion-2019 = [
+    {file = "recursion_2019-1.0.0-py3-none-any.whl", hash = "sha256:66582e65c4704349a0f933ffb550d26ba66352ce69cde224783f269a9a292aa7"},
+    {file = "recursion_2019-1.0.0.tar.gz", hash = "sha256:f6642a00f7092360a2ec7a20eba32e8567c9773ecf521261f73e60c6168a3808"},
+]
