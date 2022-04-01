@@ -3,6 +3,4 @@
 
 # Week 2
 
-<div class="row justify-content-center" style="margin: 2%;">
-    <iframe height="1000px" width="700px" src="https://replit.com/@axiao05/Data-Structures"></iframe>
-</div>
+<iframe frameborder="0" width="100%" height="450px" src="https://replit.com/@axiao05/Data-Structures/lite=true"></iframe>
