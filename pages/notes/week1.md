@@ -1,6 +1,6 @@
 {% include base.html %}
 
-# Related to CB topics 5.3 and 5.4 (Computing Bias and Crowdsourcing)
+# Related to CB topics 5.3 and 5.4 (Computing Bias & Crowdsourcing)
 ## 1.0
 * Are programs made by humans less prone to bias?
 * Purposeful bias: Targeted ads on Tiktok and Facebook are direct towards different age demographics
