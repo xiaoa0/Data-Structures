@@ -1,6 +1,6 @@
 {% include base.html %}
 
-# Related to CB topics 5.1 and 5.2 (Effects of Computing and Digital Divide)
+# Related to CB topics 5.1 and 5.2 (Effects of Computing & Digital Divide)
 ## 0.1
 * Dopamine is a 'happy chemical' released during certain activities we find pleasurable
 * Issues with dopamine often correspond with addiction (Ex: Anthony Rosner, WoW player)
