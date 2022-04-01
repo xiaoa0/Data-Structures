@@ -1,36 +1,32 @@
-# menuy.py - function style menu
-# Imports typically listed at top
-# each import enables us to use logic that has been abstracted to other files and folders
+#importing other files to run
 
-
+from week0 import animation, swap
+from week1 import fibonacci, lists
+from week2 import factorial, math
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Matrices", None],
+    ["Week 0", None],
+    ["Week 1", None],
+    ["Week 2", None],
+]
+
+
+#Submenus for different weeks
+submenu_0 = [
+    ["Ship animation", None],
     ["Swap", None],
-    ["Animation", None],
 ]
 
-
-
-# Submenu list of [Prompt, Action]
-# Works similarly to main_menu
-sub_menu = [
-    ["Factors", None],
-    ["Factorial", None],
+submenu_1 = [
     ["Fibonacci", None],
+    ["Lists", None],
 ]
 
-patterns_sub_menu = [
-    ["Patterns", None],
-    ["PreFuncy", None],
-    ["Funcy", None],
-]
-
-# Menu banner is typically defined by menu owner
+# banner and border for visual organization
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
@@ -39,8 +35,8 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 # def patterns_submenuc
 # using patterns_sub_menu list:
 # patterns_submenuc works similarly to menuc
-def patterns_submenuc():
-    title = "Class Submenu" + banner
+def submenu_0():
+    title = "Week 0" + banner
     m = questy.Menu(title, patterns_sub_menu)
     m.menu()
 
