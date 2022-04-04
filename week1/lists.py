@@ -37,28 +37,15 @@ def for_loop():
     for i in range(len(InfoDb)):
         print(InfoDb[i])
 
-def while_loop():
+def while_loop(): #with the while loop need to initialize i as 0, add 1 to i each time 
     i=0
     while i < len(InfoDb):
         print(InfoDb[i])
         i += 1
   
-def recursive_loop(p):
-    if p < len(InfoDb):
-        print(InfoDb[p])
-        recursive_loop(p + 1)
+def recursive_loop(current_index):
+  print(InfoDb[current_index])  
+  if (current_index == len(InfoDb)-1):
     return
-
-# selecting loop to run
-def select_loop():
-    choice = input("Choose loop: for, while, or recursive? ")
-    while not (choice=="for") or (choice=="while") or (choice=="recursive"):
-        choice = input("Please enter a valid input: ")
-    if (choice == "for"):
-        for_loop()
-    elif (choice == "while"):
-        while_loop()
-    elif (choice == "recursive"):
-        recursive_loop(p)
-
-select_loop()
+  else:
+    recursive_loop(current_index+1)
