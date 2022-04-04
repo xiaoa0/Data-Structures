@@ -37,8 +37,7 @@ def for_loop():
     for i in range(len(InfoDb)):
         print(InfoDb[i])
 
-def while_loop(): #with the while loop need to initialize i as 0, add 1 to i each time 
-    i=0
+def while_loop(i): 
     while i < len(InfoDb):
         print(InfoDb[i])
         i += 1
@@ -49,3 +48,16 @@ def recursive_loop(current_index):
     return
   else:
     recursive_loop(current_index+1)
+
+def driver():
+  print("For loop")
+  for_loop()
+
+  print("While loop")
+  while_loop(0)#need to initialize i as 0
+
+  print("Recursive loop")
+  recursive_loop(0) #need to initialize i
+
+if __name__ == "__main__":
+    driver()

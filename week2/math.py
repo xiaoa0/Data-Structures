@@ -10,4 +10,9 @@ def factors():
     num = int(input("Enter a number to find its factors: "))
     findFactors(num)
 
-#need to add OOP factors function
+def driver():
+  factors()
+
+if __name__ == "__main__":
+    driver()
+#need to initialize i as 0, add 1 to i each time 

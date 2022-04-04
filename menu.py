@@ -1,107 +1,109 @@
-#importing other files to run
-
+#importing files
 from week0 import animation, swap
-from week1 import fibonacci, lists
+from week1 import fibonacci, list
 from week2 import factorial, math
 
-main_menu = [
-    
-]
-
-#week 0
+# Menu list of [Prompts, Actions]
+# Two styles are supported to execute abstracted logic
+# 1. "filename.py" will be run by exec(open("filename.py").read())
+# 2. file.function references will be executed as file.function()
 week0_menu = [
     ["Animation", animation.driver],
     ["Swap", swap.driver],
 ]
 
-#week 1
 week1_menu = [
-  ["Fibonacci", fibonacci.fibonacci],
-  #["List", lists.],
+    ["Fibonacci", fibonacci.driver],
+    ["Lists and Loops", list.driver],
 ]
 
-#week 2
 week2_menu = [
-  ["Factorial", factorial.factorial1],
-  #["OOP Factorial", factorial.factorial],
-  ["Factors", math.factors],
-  #["OOP Factors", math.],
-]
-
-#submenu for list loops
-list_menu = [
-  ["For loop", lists.for_loop],
-  ["While loop", lists.while_loop],
-  ["Recursive loop", lists.recursive_loop(0)],
+    ["Factorial", factorial.driver],
+    ["Math (Factors)", math.driver],
 ]
 
 
-border = "=" * 25
-banner = f"\n{border}\nPlease Select An Option\n{border}"
-
-
-def menu():
-    title = "Menu" + banner
-    main_menu.append(["Week 0", week0_menu])
-    main_menu.append(["Week 1",week1_menu])
-    main_menu.append(["Week 2",week2_menu])
-    buildMenu(title, main_menu)
-
-def week0_menu():
-  title = "Week 0 Menu" + banner
-  buildMenu(title, week0_menu)
-  
-def week1Menu():
-  title = "Week 1 Menu" + banner
-  week1_list.append(["Different loops", list_menu],)
-  buildMenu(title, week1_menu)
-
-def week2Menu():
-  title = "Week 2 Menu" + banner
-  buildMenu(title, week2_menu)
-
-def list_menu():
-  title = "List Menu" + banner
-  buildMenu(title, list_menu)
-
-def buildMenu(banner, options):
-
+def menu(title, options):
+    # header for menu
+    # Menu banner
+    border = "=" * 25
+    banner = f"\n{border}\n{title}\n{border}"
     print(banner)
-
+    # build a dictionary from options
     prompts = {0: ["Exit", None]}
     for op in options:
         index = len(prompts)
         prompts[index] = op
 
+    # print menu or dictionary
     for key, value in prompts.items():
         print(key, '->', value[0])
 
-
+    # get user choice
     choice = input("Type your choice> ")
 
-
+    # validate choice and run
+    # execute selection
+    # convert to number
     try:
         choice = int(choice)
         if choice == 0:
             # stop
             return
         try:
+            # try as function
             action = prompts.get(choice)[1]
             action()
         except TypeError:
-            try:  
+            try:  # try as playground style
                 exec(open(action).read())
             except FileNotFoundError:
                 print(f"File not found!: {action}")
-
+            # end function try
+        # end prompts try
     except ValueError:
+        # not a number error
         print(f"Not a number: {choice}")
     except UnboundLocalError:
+        # traps all other errors
         print(f"Invalid choice: {choice}")
+    except TypeError:
+        print(f"Not callable {action}")
+    # end validation try
+
+    menu(title, options)  # recursion, start menu over again
 
 
-    buildMenu(banner, options) 
+# def math_menu
+# using sub menu list above:
+# sub_menu works similarly to menu()
+def _week0_menu():
+    title = "Week 0"
+    menu(title, week0_menu)
+
+# def math_menu
+# using sub menu list above:
+# sub_menu works similarly to menu()
+def _week1_menu():
+    title = "Week 1"
+    menu(title, week1_menu)
+
+
+# def adventure menu
+# using sub menu list above:
+# sub_menu works similarly to menu()
+def _week2_menu():
+    title = "Week 2"
+    menu(title, week2_menu)
+
+
+def driver():
+    title = "Main Menu"
+    menu_list = [["Week 0", _week0_menu],
+                 ["Week 1", _week1_menu],
+                 ["Week 2", _week2_menu]]
+    menu(title, menu_list)
 
 
 if __name__ == "__main__":
-    menu()
+    driver()

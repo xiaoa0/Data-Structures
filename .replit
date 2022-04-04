@@ -1,2 +1,2 @@
 language = "python3"
-run = "week0/swap.py"
+run = "python menu.py"

@@ -1,8 +1,4 @@
-def fibonacci():
-    a = int(input("Please input a number from 2 to 20: "))
-    while (a > 20 or a <= 2): #need at least 2 terms to form sequence, setting limit as 20 for practicality reasons
-      n = int(input("Please provide a valid input: ")) # checking input
-
+def fibonacci(a):
     def sequence(s):
         if s <= 1: #for inital n=1
             return s
@@ -16,7 +12,8 @@ def fibonacci():
             print(sequence(index))
 
 def driver():
-  
+  print("Fibonacci sequence up to 7th term: ")
+  fibonacci(7)
 
 if __name__ == "__main__":
     driver()
