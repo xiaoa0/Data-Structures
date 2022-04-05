@@ -2,8 +2,9 @@
 
 Personal project tracker for Tri 3 Data Structures class
 
+[Final review video playlist](https://youtube.com/playlist?list=PLr8BhChjy1aTR7V3eznMVnltEJ7HooxpU)
 
-### Plans for the week
+### Timeboxes
 <table>
   <tr>
   <th>Week Number</th>
