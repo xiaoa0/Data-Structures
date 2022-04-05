@@ -1,5 +1,7 @@
 {% include base.html %}
 
+## Tech Talk 1: Data Structures
+
 * Collection is a data structure that holds more than one value (Ex: list)
 * List is a class, has methods
 * How to access methods? use "." (Ex: .append)
