@@ -74,29 +74,23 @@ def menu(title, options):
     menu(title, options)  # recursion, start menu over again
 
 
-# def math_menu
-# using sub menu list above:
-# sub_menu works similarly to menu()
+# def week0 menu
 def _week0_menu():
     title = "Week 0"
     menu(title, week0_menu)
 
-# def math_menu
-# using sub menu list above:
-# sub_menu works similarly to menu()
+# def week1 menu
 def _week1_menu():
     title = "Week 1"
     menu(title, week1_menu)
 
 
-# def adventure menu
-# using sub menu list above:
-# sub_menu works similarly to menu()
+# def week2 menu
 def _week2_menu():
     title = "Week 2"
     menu(title, week2_menu)
 
-
+#driver to run
 def driver():
     title = "Main Menu"
     menu_list = [["Week 0", _week0_menu],
