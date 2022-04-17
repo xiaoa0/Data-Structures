@@ -23,7 +23,7 @@
 
 ***
 ### Allie's work
-[Video demo]()
+[Video demo](https://youtu.be/sYCiMiPG5uo)
 [Alternate answer document](https://docs.google.com/document/d/1O2SFuxhPD1LO9QpGeQGzehhuvchrMXoD9n9z7bcuFhE/edit?usp=sharing)
 1. The purpose of this program is to simulate a game of hangman, where a word is randomly selected from a predefined list of words and the user is given several tries to guess the word by entering individual letters. The runtime video shows two games with different words, one winning game and one losing game. The inputs demonstrated are the user’s guesses. The outputs demonstrated are the user’s updated guess strings and the game result. 
 
