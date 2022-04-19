@@ -7,8 +7,19 @@ Personal project tracker for Tri 3 Data Structures class
 ### Timeboxes
 <table>
   <tr>
-  <th>Week Number</th>
-  <th>Link to the Review Ticket</th>
+  <th>Week</th>
+  <th>Link to Review Ticket</th>
+  </tr>
+  <tr>
+  <td>Week 5: AP Prep</td>
+  <td> <a href="https://github.com/xiaoa0/Data-Structures/issues/7">Review Ticket</a></td>
+  </tr>
+  </table>
+
+<table>
+  <tr>
+  <th>Week</th>
+  <th>Link to Review Ticket</th>
   </tr>
   <tr>
   <td>Week 4: Accounts and Logins</td>
@@ -18,8 +29,8 @@ Personal project tracker for Tri 3 Data Structures class
 
 <table>
   <tr>
-  <th>Week Number</th>
-  <th>Link to the Review Ticket</th>
+  <th>Week</th>
+  <th>Link to Review Ticket</th>
   </tr>
   <tr>
   <td>Week 3: Algorithmic Final</td>
@@ -29,8 +40,8 @@ Personal project tracker for Tri 3 Data Structures class
 
 <table>
   <tr>
-  <th>Week Number</th>
-  <th>Link to the Review Ticket</th>
+  <th>Week</th>
+  <th>Link to Review Ticket</th>
   </tr>
   <tr>
   <td>Week 2: Classy Functions</td>
@@ -40,8 +51,8 @@ Personal project tracker for Tri 3 Data Structures class
   
 <table>
   <tr>
-  <th>Week Number</th>
-  <th>Link to the Review Ticket</th>
+  <th>Week</th>
+  <th>Link to Review Ticket</th>
   </tr>
   <tr>
   <td>Week 1: Lists and Loops</td>
@@ -51,8 +62,8 @@ Personal project tracker for Tri 3 Data Structures class
 
 <table>
   <tr>
-  <th>Week Number</th>
-  <th>Link to the Review Ticket</th>
+  <th>Week</th>
+  <th>Link to Review Ticket</th>
   </tr>
   <tr>
   <td>Week 0: Plans, Team, Jobs</td>
