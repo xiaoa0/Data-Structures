@@ -4,13 +4,13 @@
 
 # Notice
 This project is by Allie Xiao (me) for the Create Performance Task portion of the 2022 AP Computer Science Principles exam. The code portion is also documented on [Replit](https://replit.com/@axiao05/hangman#main.py).
-This webpage, along with the [corresponding repository wiki](https://github.com/xiaoa0/Data-Structures/wiki/Create-Task-documentation), documents my updated code, video, and written responses that I will use in my portfolio submission.
+This webpage, along with the [corresponding repository's wiki](https://github.com/xiaoa0/Data-Structures/wiki/Create-Task-documentation), documents my updated code, video, and written responses that I will use in my portfolio submission.
 [This page](https://github.com/TheRadRabbidRabbit/Team-Lovelace/wiki/Tianbin-and-Allie-Create-Task-planning) serves as an archive for the early stages of development and was created **collaboratively** with Tianbin Liu.
 
 While Tianbin may use some or all of the content contained in the last link in his submission, the work in the first two links and this file/page was created individually by me and will only be used by me. 
 
 Anyone other than Tianbin attempting to submit material from the third link as their own work is committing plagiarism.
-Anyone (including Tianbin) attempting to submit material from the first two links as their own is committing plagiarism.
+Anyone, _including_ Tianbin, attempting to submit material from the first two links as their own is committing plagiarism.
 
 ### Requirements:
 * Take input from user, device, online data stream, or file
