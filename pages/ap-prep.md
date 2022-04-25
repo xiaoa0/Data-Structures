@@ -12,4 +12,4 @@ Need to review Unit 5 content on Internet protocols, security, etc.
 - 45: Should be A. Need to use "main" (more detailed) list combined with athlete database to compare GPAs of athletes and non-athletes. Using list 3 doesn't give overall view of GPAs and skews results.
 
 ### Reflection
-Overall I scored very well on the MCs. My main concern is that while my timing was okay for the 50-question sets, I may end up dragging on the actual MC test because of the additional 20 questions. However, a more important issue is reviewing the examples provided by College Board for the Create Task and making sure my submission is up to standard.
+Overall I scored very well on the MCs. My main concern is that while my timing was okay for the 50-question sets, I may end up dragging on the actual MC test because of the additional 20 questions. However, a more important issue is reviewing the examples provided by College Board for the Create Task and making sure my submission is up to standard. This will likely involve overhauling my code to meet the parameters requirement and changing complexity.
