@@ -16,3 +16,10 @@ Note: review Unit 5 content on Internet protocols, security, etc.
 
 ### Reflection
 Overall I scored very well on the MCs. The topics I need to review are Big Idea 5 (The Internet) and using databases to draw conclusions. My main concern is that while my timing was okay for the 50-question sets, I may end up dragging on the actual MC test because of the additional 20 questions. Another important issue is reviewing the examples provided by College Board for the Create Task and making sure my submission is up to standard. This will likely involve overhauling my code to meet the parameters requirement and changing complexity.
+
+![](https://github.com/xiaoa0/Data-Structures/blob/main/github_pages/quiz3.png)
+### Quiz 3 (4/26): 46/50
+- 6: Should be C, because program is only looking for integers 1-20 and D uses "until x > 20", which will include 21.
+- 11: Should be B, since age is a number. Don't know what happened here, may have skipped question or mistaken for #10 which was similar.
+- 18: Should be C, because in that case program sees only one positive value and returns True when it should return false due to the previous negative values.
+- 23: Shold be D, I thought A was a valid answer because I didn't count the decimal places (only saw messages hovering in middle 3 range). Characters per message has a more defined trend.
