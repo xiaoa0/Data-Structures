@@ -23,3 +23,6 @@ Overall I scored very well on the MCs. The topics I need to review are Big Idea 
 - 11: Should be B, since age is a number. Don't know what happened here, may have skipped question or mistaken for #10 which was similar.
 - 18: Should be C, because in that case program sees only one positive value and returns True when it should return false due to the previous negative values.
 - 23: Shold be D, I thought A was a valid answer because I didn't count the decimal places (only saw messages hovering in middle 3 range). Characters per message has a more defined trend.
+
+### Reflection
+This score was still fairly good, but I need to review the College Board's pseudocode guide. I missed several questions due to my unfamiliarity with the syntax. Until 5/3 I will have to focus on polishing my Create Task.
