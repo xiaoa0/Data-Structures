@@ -25,4 +25,4 @@ Overall I scored very well on the MCs. The topics I need to review are Big Idea 
 - 23: Shold be D, I thought A was a valid answer because I didn't count the decimal places (only saw messages hovering in middle 3 range). Characters per message has a more defined trend.
 
 ### Reflection
-This score was still fairly good, but I need to review the College Board's pseudocode guide. I missed several questions due to my unfamiliarity with the syntax. Until 5/3 I will have to focus on polishing my Create Task.
+This score was still fairly good, but I need to review the College Board's pseudocode guide. I missed several questions due to my unfamiliarity with the syntax. Based on my previous quizzes, I also need to review the Internet and Data units. However, until 5/3 I mainly be focusing on polishing my Create Task.
