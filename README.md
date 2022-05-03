@@ -9,6 +9,10 @@ Personal project tracker for Tri 3 Data Structures class
   <th>Review Ticket</th>
   </tr>
   <tr>
+  <td>Week 6: AP Prep Part 2</td>
+  <td> <a href="https://github.com/xiaoa0/Data-Structures/issues/9">Review Ticket</a></td>
+  </tr>
+  <tr>
   <td>Week 5: AP Prep</td>
   <td> <a href="https://github.com/xiaoa0/Data-Structures/issues/8">Review Ticket</a></td>
   </tr>
