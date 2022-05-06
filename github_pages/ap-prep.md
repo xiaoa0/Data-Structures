@@ -26,3 +26,9 @@ Overall I scored very well on the MCs. The topics I need to review are Big Idea 
 
 ### Reflection
 This score was still fairly good, but I need to review the College Board's pseudocode guide. I missed several questions due to my unfamiliarity with the syntax. Based on my previous quizzes, I also need to review the Internet and Data units. However, until 5/3 I mainly be focusing on polishing my Create Task.
+
+
+### Quiz 5 (5/3): 25/25
+
+### Reflection
+I was able to finish the first 25 questions (as suggested) in half an hour, so I think my timing is good. I didn't miss any of the algorithm questions, so this means my pseudocode review paid off. My plan is to time the Quiz 4 MC over the weekend to make sure I can keep that timing.
